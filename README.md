@@ -1,6 +1,8 @@
 # Netflix Assessment
 Create a series of manual test cases that cover the CRUD operation plus the edge cases.Make sure you give detailed instructions for each test case (pre conditions, steps, expectedresults). You may use any format you want
 
+The app under test is [Computer database](http://computer-database.herokuapp.com/computers/)
+
 ## Structure
 The following section contains an explanation of the different folders that compose the project, and the content of each one of them.
 
