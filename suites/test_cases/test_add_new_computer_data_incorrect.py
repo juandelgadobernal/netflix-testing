@@ -1,0 +1,65 @@
+import unittest
+import datetime
+import pytz
+import time
+from utils.WDriver import WDriver
+from utils.HelperJson import HelperJson
+from page_models.HomePage import HomePage
+from page_models.AddNewComputerPage import AddNewComputerPage
+
+class test_add_new_computer_data_incorrect(unittest.TestCase):
+
+    @classmethod
+    def setUpClass(cls):
+        cls.start_ts_pst = ''
+
+    def setUp(self):
+        self.start_ts_pst = str(datetime.datetime.now(pytz.timezone('US/Pacific')).strftime('"%m-%d %H:%M:%S.%f"'))
+
+    def tearDown(self):
+        end_ts_pst = str(datetime.datetime.now(pytz.timezone('US/Pacific')).strftime('"%m-%d %H:%M:%S.%f"'))
+        print("Test start time: {}".format(self.start_ts_pst))
+        print("Test end time  : {}".format(end_ts_pst))
+
+    def test_add_new_computer_data_incorrect(self):
+
+        print('*****************TC:test_add_new_computer_data_incorrect *******************')
+
+        callHelperJson = HelperJson()
+        dataComputer = callHelperJson.read('dataComputer.json')
+
+        self.webdriver = dataComputer['webdriver']
+        self.web_url = dataComputer['web_url']
+        self.new_computer = dataComputer['new_computer_data_incorrect']
+        self.introduced_date_data_incorrect = dataComputer['introduced_date_data_incorrect']
+        self.discontinued_date_data_incorrect = dataComputer['discontinued_date_data_incorrect']
+
+        # call driver
+        callWDriver = WDriver(self.webdriver, self.web_url)
+        callWDriver.call_chrome_webdriver()
+
+        # home page
+        callHomePage = HomePage(callWDriver.driver, '')
+        callHomePage.validate_home_page_title()
+        val_click_add_new_computer = callHomePage.click_add_new_computer()
+
+        # ADD A COMPUTER PAGE
+        callAddNewComputerPage = AddNewComputerPage(callWDriver.driver, self.new_computer,self.introduced_date_data_incorrect,self.discontinued_date_data_incorrect)
+        callAddNewComputerPage.validate_add_new_computer_title_css()
+        # input values
+        callAddNewComputerPage.add_new_computer_name()
+        callAddNewComputerPage.add_new_computer_introduce_date()
+        callAddNewComputerPage.add_new_computer_discontinued_date()
+        #callAddNewComputerPage.add_new_computer_company_random()
+
+        val_create_computer = callAddNewComputerPage.create_computer_data_incorrect_dates()
+        # assert is != to False, expecting True to check true of test value as computer created
+        assert val_create_computer != False, 'Error Msg Require fields not displayed'
+
+        callAddNewComputerPage.print_log_create_computer_msg_errors()
+        time.sleep(2)
+
+        callWDriver.quit_chrome_webdriver()
+
+if __name__ == '__main__':
+    unittest.main()

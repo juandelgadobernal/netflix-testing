@@ -1,0 +1,225 @@
+06-27 12:44:20.533425: TC_AddNewComputerPage
+06-27 12:44:20.533473: Done! Computer XYZ has been created
+06-27 12:44:20.533489: XYZ
+06-27 12:44:20.533502: 
+06-27 12:44:20.533513: 
+06-27 12:44:29.142202: TC_EditComputerPage
+06-27 12:44:29.142217: Done! Computer XYZ_Update has been updated
+06-27 12:44:29.142224: XYZ_Update
+06-27 12:44:29.142230: 
+06-27 12:44:29.142235: 
+06-27 12:44:34.873169: TC_DeleteComputerPage
+06-27 12:44:34.873192: Done! Computer has been deleted
+06-27 12:44:34.873205: XYZ_Update
+06-27 12:57:14.116308: TC_AddNewComputerPage
+06-27 12:57:14.116325: Done! Computer XYZ has been created
+06-27 12:57:14.116333: XYZ
+06-27 12:57:14.116339: 
+06-27 12:57:14.116345: 
+06-27 12:57:22.291119: TC_EditComputerPage
+06-27 12:57:22.291145: Done! Computer XYZ_Update has been updated
+06-27 12:57:22.291153: XYZ_Update
+06-27 12:57:22.291160: 
+06-27 12:57:22.291166: 
+06-27 12:57:27.828559: TC_DeleteComputerPage
+06-27 12:57:27.828574: Done! Computer has been deleted
+06-27 12:57:27.828582: XYZ_Update
+06-27 13:00:38.021697: TC_AddNewComputerPage
+06-27 13:00:38.021715: Done! Computer XYZ has been created
+06-27 13:00:38.021723: XYZ
+06-27 13:00:38.021729: 
+06-27 13:00:38.021735: 
+06-27 13:00:46.107669: TC_EditComputerPage
+06-27 13:00:46.107684: Done! Computer XYZ_Update has been updated
+06-27 13:00:46.107691: XYZ_Update
+06-27 13:00:46.107698: 
+06-27 13:00:46.107703: 
+06-27 13:00:51.811277: TC_DeleteComputerPage
+06-27 13:00:51.811296: Done! Computer has been deleted
+06-27 13:00:51.811304: XYZ_Update
+06-27 13:03:44.818637: TC_AddNewComputerPage
+06-27 13:03:44.818653: Done! Computer XYZ has been created
+06-27 13:03:44.818660: XYZ
+06-27 13:03:44.818666: 
+06-27 13:03:44.818672: 
+06-27 13:03:52.880743: TC_EditComputerPage
+06-27 13:03:52.880759: Done! Computer XYZ_Update has been updated
+06-27 13:03:52.880766: XYZ_Update
+06-27 13:03:52.880772: 
+06-27 13:03:52.880778: 
+06-27 13:03:58.536496: TC_DeleteComputerPage
+06-27 13:03:58.536517: Done! Computer has been deleted
+06-27 13:03:58.536527: XYZ_Update
+06-27 13:04:38.479191: TC_AddNewComputerPage
+06-27 13:04:38.479214: Done! Computer XYZ has been created
+06-27 13:04:38.479226: XYZ
+06-27 13:04:38.479238: 
+06-27 13:04:38.479249: 
+06-27 13:04:46.763326: TC_EditComputerPage
+06-27 13:04:46.763343: Done! Computer XYZ_Update has been updated
+06-27 13:04:46.763351: XYZ_Update
+06-27 13:04:46.763357: 
+06-27 13:04:46.763363: 
+06-27 13:04:52.400347: TC_DeleteComputerPage
+06-27 13:04:52.400361: Done! Computer has been deleted
+06-27 13:04:52.400368: XYZ_Update
+06-27 13:04:57.928997: TC_AddNewComputerPage
+06-27 13:04:57.929014: Done! Computer Computer_rd_"06-27 13:04:57.506057" has been created
+06-27 13:04:57.929022: Computer_rd_"06-27 13:04:57.506057"
+06-27 13:04:57.929028: 
+06-27 13:04:57.929067: 
+06-27 13:06:07.662097: TC_AddNewComputerPage
+06-27 13:06:07.662112: Done! Computer XYZ has been created
+06-27 13:06:07.662120: XYZ
+06-27 13:06:07.662126: 
+06-27 13:06:07.662132: 
+06-27 13:06:15.861361: TC_EditComputerPage
+06-27 13:06:15.861380: Done! Computer XYZ_Update has been updated
+06-27 13:06:15.861391: XYZ_Update
+06-27 13:06:15.861402: 
+06-27 13:06:15.861414: 
+06-27 13:06:21.556917: TC_DeleteComputerPage
+06-27 13:06:21.556944: Done! Computer has been deleted
+06-27 13:06:21.556957: XYZ_Update
+06-27 13:06:27.048584: TC_AddNewComputerPage
+06-27 13:06:27.048598: Done! Computer Computer_rd_06-27 13:06:26 has been created
+06-27 13:06:27.048605: Computer_rd_06-27 13:06:26
+06-27 13:06:27.048611: 
+06-27 13:06:27.048617: 
+06-27 13:18:01.973689: TC_AddNewComputerPage
+06-27 13:18:01.973704: Done! Computer XYZ has been created
+06-27 13:18:01.973712: XYZ
+06-27 13:18:01.973718: 
+06-27 13:18:01.973724: 
+06-27 13:18:20.275258: TC_AddNewComputerPage
+06-27 13:18:20.275274: Done! Computer XYZ has been created
+06-27 13:18:20.275282: XYZ
+06-27 13:18:20.275288: 
+06-27 13:18:20.275294: 
+06-27 13:19:43.561266: TC_AddNewComputerPage
+06-27 13:19:43.561281: Done! Computer XYZ has been created
+06-27 13:19:43.561288: XYZ
+06-27 13:19:43.561294: 
+06-27 13:19:43.561300: 
+06-27 13:19:51.916223: TC_EditComputerPage
+06-27 13:19:51.916239: Done! Computer XYZ_Update has been updated
+06-27 13:19:51.916246: XYZ_Update
+06-27 13:19:51.916252: 
+06-27 13:19:51.916258: 
+06-27 13:19:57.457914: TC_DeleteComputerPage
+06-27 13:19:57.457932: Done! Computer has been deleted
+06-27 13:19:57.457940: XYZ_Update
+06-27 13:20:03.061396: TC_AddNewComputerPage
+06-27 13:20:03.061423: Done! Computer Computer_rd_06-27 13:20:02 has been created
+06-27 13:20:03.061437: Computer_rd_06-27 13:20:02
+06-27 13:20:03.061448: 
+06-27 13:20:03.061459: 
+06-27 13:31:56.238215: TC_AddNewComputerPage
+06-27 13:31:56.238231: Done! Computer 06-27 13:31:55 has been created
+06-27 13:31:56.238238: 06-27 13:31:55
+06-27 13:31:56.238245: 
+06-27 13:31:56.238250: 
+06-27 13:43:31.985961: TC_AddNewComputerPage
+06-27 13:45:46.360111: TC_AddNewComputerPage
+06-27 14:28:32.124413: TC_AddNewComputerPage_Msg_Errors
+06-27 14:28:32.124429: 06-27 14:33:03.817073: TC_AddNewComputerPage_Msg_Errors
+06-27 14:33:03.817090: 06-27 14:34:36.068179: TC_AddNewComputerPage_Msg_Errors
+06-27 14:34:36.068197: Date ('yyyy-MM-dd')
+06-27 14:34:36.068205: Computer with date incorrect format
+06-27 14:34:36.068211: ABC
+06-27 14:34:36.068217: ABC
+06-27 14:37:09.187693: TC_AddNewComputerPage_Msg_Errors
+06-27 14:37:09.187709: Date ('yyyy-MM-dd')
+06-27 14:37:09.187717: Computer with date incorrect format
+06-27 14:37:09.187724: ABC
+06-27 14:37:09.187729: ABC
+06-27 14:37:54.759214: TC_AddNewComputerPage_Msg_Errors
+06-27 14:37:54.759228: Required
+06-27 14:37:54.759236: 
+06-27 14:37:54.759242: 
+06-27 14:37:54.759248: 
+06-27 14:38:40.802951: TC_AddNewComputerPage
+06-27 14:38:40.802967: Done! Computer XYZ has been created
+06-27 14:38:40.802974: XYZ
+06-27 14:38:40.802980: 
+06-27 14:38:40.802986: 
+06-27 14:38:48.942055: TC_EditComputerPage
+06-27 14:38:48.942070: Done! Computer XYZ_Update has been updated
+06-27 14:38:48.942077: XYZ_Update
+06-27 14:38:48.942084: 
+06-27 14:38:48.942090: 
+06-27 14:38:54.410712: TC_DeleteComputerPage
+06-27 14:38:54.410727: Done! Computer has been deleted
+06-27 14:38:54.410735: XYZ_Update
+06-27 14:38:59.912658: TC_AddNewComputerPage
+06-27 14:38:59.912675: Done! Computer Computer_rd_06-27 14:38:59 has been created
+06-27 14:38:59.912683: Computer_rd_06-27 14:38:59
+06-27 14:38:59.912689: 
+06-27 14:38:59.912695: 
+06-27 14:39:05.413675: TC_AddNewComputerPage_Msg_Errors
+06-27 14:39:05.413692: Required
+06-27 14:39:05.413699: 
+06-27 14:39:05.413705: 
+06-27 14:39:05.413711: 
+06-27 14:39:10.869557: TC_AddNewComputerPage_Msg_Errors
+06-27 14:39:10.869574: Date ('yyyy-MM-dd')
+06-27 14:39:10.869581: Computer with date incorrect format
+06-27 14:39:10.869587: ABC
+06-27 14:39:10.869593: ABC
+06-27 15:11:17.065471: TC_AddNewComputerPage
+06-27 15:11:17.065488: Done! Computer XYZ has been created
+06-27 15:11:17.065495: XYZ
+06-27 15:11:17.065502: 
+06-27 15:11:17.065508: 
+06-27 15:11:25.204512: TC_EditComputerPage
+06-27 15:11:25.204527: Done! Computer XYZ_Update has been updated
+06-27 15:11:25.204535: XYZ_Update
+06-27 15:11:25.204541: 
+06-27 15:11:25.204547: 
+06-27 15:11:30.856122: TC_DeleteComputerPage
+06-27 15:11:30.856138: Done! Computer has been deleted
+06-27 15:11:30.856146: XYZ_Update
+06-27 15:11:36.284951: TC_AddNewComputerPage
+06-27 15:11:36.284967: Done! Computer Computer_rd_06-27 15:11:35 has been created
+06-27 15:11:36.284974: Computer_rd_06-27 15:11:35
+06-27 15:11:36.284980: 
+06-27 15:11:36.284986: 
+06-27 15:11:41.644099: TC_AddNewComputerPage_Msg_Errors
+06-27 15:11:41.644115: Required
+06-27 15:11:41.644122: 
+06-27 15:11:41.644128: 
+06-27 15:11:41.644134: 
+06-27 15:11:47.057579: TC_AddNewComputerPage_Msg_Errors
+06-27 15:11:47.057595: Date ('yyyy-MM-dd')
+06-27 15:11:47.057603: Computer with date incorrect format
+06-27 15:11:47.057609: ABC
+06-27 15:11:47.057614: ABC
+06-27 19:24:42.295652: TC_AddNewComputerPage
+06-27 20:24:07.747362: TC_AddNewComputerPage
+06-27 20:24:07.747385: Done! Computer AGS has been created
+06-27 20:24:07.747397: AGS
+06-27 20:24:07.747408: 
+06-27 20:24:07.747419: 
+06-27 20:24:16.171495: TC_EditComputerPage
+06-27 20:24:16.171511: Done! Computer AGS_Update has been updated
+06-27 20:24:16.171519: AGS_Update
+06-27 20:24:16.171529: 
+06-27 20:24:16.171539: 
+06-27 20:24:21.655439: TC_DeleteComputerPage
+06-27 20:24:21.655465: Done! Computer has been deleted
+06-27 20:24:21.655478: AGS_Update
+06-27 20:24:27.174106: TC_AddNewComputerPage
+06-27 20:24:27.174121: Done! Computer Computer_rd_06-27 20:24:26 has been created
+06-27 20:24:27.174128: Computer_rd_06-27 20:24:26
+06-27 20:24:27.174134: 
+06-27 20:24:27.174140: 
+06-27 20:24:32.619518: TC_AddNewComputerPage_Msg_Errors
+06-27 20:24:32.619536: Required
+06-27 20:24:32.619543: 
+06-27 20:24:32.619549: 
+06-27 20:24:32.619555: 
+06-27 20:24:38.177630: TC_AddNewComputerPage_Msg_Errors
+06-27 20:24:38.177651: Date ('yyyy-MM-dd')
+06-27 20:24:38.177664: Computer with date incorrect format
+06-27 20:24:38.177674: ABC
+06-27 20:24:38.177682: ABC

@@ -1,0 +1,15 @@
+{
+  "webdriver": "chromedriver",
+  "web_url" : "http://computer-database.herokuapp.com/computers",
+  "new_computer" : "AGS",
+  "edit_new_computer" : "AGS_Update",
+  "new_computer_req_data" : "Computer_rd_",
+  "new_computer_data_missing" : "",
+  "new_computer_data_incorrect" : "Computer with date incorrect format",
+  "introduced_date_data_incorrect" : "ABC",
+  "discontinued_date_data_incorrect" : "ABC",
+  "new_computer_no_exist" : "GDFGGHRTHRTH",
+  "new_computer_cancel" : "Computer_JDB",
+  "new_computer_cancel_update" : "Computer_JDB_UPDATE",
+  "new_computer_not_added" : "DFIFBUYERFEERFBIURFIW"
+}

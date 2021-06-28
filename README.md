@@ -1,2 +1,0 @@
-# netflix-testing
-Netflix assestment 
