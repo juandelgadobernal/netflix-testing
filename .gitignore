@@ -1,0 +1,8 @@
+# Default ignored files
+*.pyc
+suites/test_add_new_computer_x.py
+suites/test_delete_new_computer_x.py
+suites/test_e2e.py
+suites/test_edit_new_computer_x.py
+/suites/reports/
+/.idea/
