@@ -6,3 +6,4 @@ suites/test_e2e.py
 suites/test_edit_new_computer_x.py
 /suites/reports/
 /.idea/
+__pycache__/
