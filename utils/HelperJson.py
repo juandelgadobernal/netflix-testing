@@ -1,11 +1,11 @@
 import json
 
 class HelperJson:
-    """HelperJson Class"""
+    """HelperJson Class """
 
     def __init__(self):
         """
-        This method Initialize the class
+        This method Initialize the class HelperJson
         """
         self.path = "/Users/juandelgado/PycharmProjects/netflix-testing/suites/test_data/"
 
