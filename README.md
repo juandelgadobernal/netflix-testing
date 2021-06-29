@@ -103,5 +103,5 @@ regression.py as a unnittest
 ```
 ## Notes
 * **To Do/In Progresss :**
-Implement HTMLReports, the multirun in diferents browsers in parallel (even consider the options as Browserstack), Besides the code best practies and refactor after a code review.
+Implement HTMLReports, the multi-run in different browsers in parallel (even consider the options as Browserstack), Besides the code best practies and refactor after a code review.
 
