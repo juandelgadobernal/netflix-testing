@@ -3,7 +3,7 @@ Create a series of manual test cases that cover the CRUD operation plus the edge
 
 The app under test is [Computer database](http://computer-database.herokuapp.com/computers/)
 
-## Structure
+## Structure of netflix-testing
 The following section contains an explanation of the different folders that compose the project, and the content of each one of them.
 
 ## Test Automation Framework Design 
@@ -39,9 +39,6 @@ the folder allocate a file report created on each execution per day with all the
     * **regression**
 The unnittest py file to run all our test cases
 
-    * **report**
-not used for now
-
     * **test cases**
 the folder with all the test cases
 
@@ -52,7 +49,7 @@ the folder contain the dataComputer.json with all the input values per each test
 the folder contain classes to help us with our execution for commun action or validations
 
 ## Quality Approach & strategy
-### test_cases - Traxability Matrix
+### CRUD Operation Test_Cases - Traxability Matrix
 
 
 | No.   | TC Description and name                 | CREATE  | READ    | UPDATE   | DELETE |
@@ -67,10 +64,22 @@ the folder contain classes to help us with our execution for commun action or va
 | 8     | test_add_new_computer_cancel            |    X    |   X     |          |        |
 | 9     | test_computer_edit_delete_cancel        |         |   X     |    X     |   X    |
 
+## Requirements
+* **Selenium webdriver:**
+Using Chromedriver from usr/local/bin but please you can download from browser_driver folder
+Reference for install [Chrome driver](https://chromedriver.chromium.org/)
+
+* **Absolute paths:**
+Absolute paths used on Utils Folder for the class HelperJson and Logs
 
 ## Demo
+* **Prefered use :**
 To run all of the tests from the regression suite folder that contains all the list of test scripts (classes), we are using a TestLoader's to get a TestSuite of tests for each class, and then create a single combined TestSuite from a list containing all of those suites to use with run:
 
 ```
 regression.py as a unnittest
 ```
+## Notes
+* **To Do/In Progresss :**
+Implement HTMLReports, the multirun in diferents browsers in parallel (even consider the options as Browserstack), Besides the code best practies and refactor after a code review.
+
