@@ -49,20 +49,42 @@ the folder contain the dataComputer.json with all the input values per each test
 the folder contain classes to help us with our execution for commun action or validations
 
 ## Quality Approach & strategy
+### CRUD Operation Test_Cases
+
+| ID. |  CRUD   | Priority |  Manual TC (Rest method)                        | Method   | Automated | Comments | 
+|:----|:--------|:--------:|:------------------------------------------------|:--------:|:---------:|:---------|
+|E2E  | All     | High     | Add new computer then update then delete        | Positive | Yes       |          |
+|C01  | Create  | High     | Add new computer all optional and required data | Positive | Yes       |          |
+|C02  | Create  | High     | Add new computer only required data             | Positive | Yes       |          |
+|C03  | Create  | Medium   | Add new computer with required data missing     | Negative | Yes       |          |  
+|C04  | Create  | Low      | Add new computer with invalid data              | Negative | Yes       |          | 
+|C05  | Create  | Low      | Add new computer cancel.                        | Positive | Yes       |          |
+|R01  | Read    | High     | Read when computer exist                        | Positive | Yes       |          | 
+|R02  | Read    | High     | Read when computer doesn't exist                | Negative | Yes       |          | 
+|U01  | Update  | High     | Update existing computer                        | Positive | Yes       |          | 
+|U02  | Update  | Medium   | Update non-existing computer                    | Negative | Yes       |          | 
+|U03  | Update  | Medium   | Update deleted computer                         | Negative | Yes       |          |
+|U04  | Update  | Low      | Update existing computer cancel                 | Positive | Yes       |          |
+|U05  | Update  | Low      | Update existing computer then update again      | Negative | No        | WIP      | 
+|D01  | Delete  | High     | Delete new computer                             | Positive | Yes       |          | 
+|D02  | Delete  | Medium   | Delete non-existing computer                    | Negative | Yes       |          | 
+|D03  | Delete  | Low      | Delete new computer cancel                      | Positive | Yes       |          | 
+|D04  | Delete  | Low      | Delete new computer with dependencies           | Positive | No        | TBD      | 
+|D05  | Delete  | Low      | Delete after delete                             | Positive | No        | TBD      | 
+
 ### CRUD Operation Test_Cases - Traxability Matrix
 
-
-| No.   | TC Description and name                 | CREATE  | READ    | UPDATE   | DELETE |
-|:-----:|:----------------------------------------|:-------:|:-------:|:--------:|:------:|
-| 1     | test_add_new_computer                   |    X    |   X     |          |        |
-| 2     | test_edit_new_computer                  |         |   X     |    X     |        |
-| 3     | test_delete_new_computer                |         |   X     |          |   X    |
-| 4     | test_add_new_computer_req_data          |    X    |   X     |          |        |
-| 5     | test_add_new_computer_data_missing      |    X    |   X     |          |        |
-| 6     | test_add_new_computer_data_incorrect    |         |   X     |          |        |
-| 7     | test_computer_no_exist                  |         |   X     |    X     |   X    |
-| 8     | test_add_new_computer_cancel            |    X    |   X     |          |        |
-| 9     | test_computer_edit_delete_cancel        |         |   X     |    X     |   X    |
+| TC no. | TC Name.                             | E2E | C01 | C02 | C03 | C04 | C05 | R01 | R02 | U01 | U02 | U03 | U04 | U05 | D01 | D02 | D03 | D04 | D05 | 
+|:------:|:-------------------------------------|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| TC1    | test_add_new_computer                | X   |  X  |     |     |     |     |  X  |     |     |     |     |     |     |     |     |     |     |     |   
+| TC2    | test_edit_new_computer               | X   |     |     |     |     |     |  X  |     |  X  |     |     |     |     |     |     |     |     |     |
+| TC3    | test_delete_new_computer             | X   |     |     |     |     |     |     |     |     |     |     |     |     |  X  |     |     |     |     |
+| TC4    | test_add_new_computer_req_data       | X   |     |  X  |     |     |     |  X  |     |     |     |     |     |     |     |     |     |     |     |
+| TC5    | test_add_new_computer_data_missing   |     |     |     |  X  |     |     |  X  |     |     |     |     |     |     |     |     |     |     |     |
+| TC6    | test_add_new_computer_data_incorrect |     |     |     |     |  X  |     |  X  |     |     |     |     |     |     |     |     |     |     |     |
+| TC7    | test_computer_no_exist               |     |     |     |     |     |     |     |  X  |     |  X  |  X  |     |     |     |     |     |     |     |
+| TC8    | test_add_new_computer_cancel         |     |     |     |     |     |  X  |     |     |     |  X  |     |  X  |     |     |  X  |     |     |     |
+| TC9    | test_computer_edit_delete_cancel     |     |     |     |     |     |     |  X  |     |  X  |     |     |     |     |     |     |  X  |     |     |
 
 ## Requirements
 * **Selenium webdriver:**
