@@ -1,4 +1,3 @@
-# your intial test
 import unittest
 from suites.test_cases.test_add_new_computer import test_add_new_computer
 from suites.test_cases.test_edit_new_computer import test_edit_new_computer
@@ -10,8 +9,7 @@ from suites.test_cases.test_computer_no_exist import test_computer_no_exist
 from suites.test_cases.test_add_new_computer_cancel import test_add_new_computer_cancel
 from suites.test_cases.test_computer_edit_delete_cancel import test_computer_edit_delete_cancel
 
-# let MyTests and MyOtherTests be class that inherit from
-# unittest.TestCase as in the examples above
+# unittest.TestCase
 
 tc1 = unittest.TestLoader().loadTestsFromTestCase(test_add_new_computer)
 tc2 = unittest.TestLoader().loadTestsFromTestCase(test_edit_new_computer)
@@ -22,7 +20,6 @@ tc6 = unittest.TestLoader().loadTestsFromTestCase(test_add_new_computer_data_inc
 tc7 = unittest.TestLoader().loadTestsFromTestCase(test_computer_no_exist)
 tc8 = unittest.TestLoader().loadTestsFromTestCase(test_add_new_computer_cancel)
 tc9 = unittest.TestLoader().loadTestsFromTestCase(test_computer_edit_delete_cancel)
-
 
 #suite = unittest.TestLoader().loadTestsFromTestCase(MyOtherTests)
 #all_tests = unittest.TestSuite([tc8])
